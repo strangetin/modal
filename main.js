@@ -1,3 +1,11 @@
+const INIT = false
+
 document.addEventListener("DOMContentLoaded", () => {
-	console.log("I AM READY");
+    if (!INIT) {
+        initModal()
+    }
 })
+
+function initModal() {
+    console.log('I AM READY')
+}
